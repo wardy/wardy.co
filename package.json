@@ -19,7 +19,7 @@
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && cp CNAME public/ && gh-pages -d public -b master"
+    "deploy": "gatsby build && cp CNAME public/ && gh-pages -d public -r git@github.com:wardy/wardy.github.io.git -b master"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
