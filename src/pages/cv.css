@@ -1,0 +1,54 @@
+.cv {
+  display: flex;
+  flex-flow: wrap;
+  padding: 20px;
+}
+
+.cv__header {
+  display: flex;
+  width: 100%;
+  font-family: 'Andale Mono', AndaleMono, monospace;
+}
+
+.cv__name {
+  text-decoration: underline;
+  margin-top: 0;
+  width: 50%;
+}
+
+.cv__contact-details {
+  text-align: right;
+  width: 50%;
+  margin-top: auto;
+}
+
+.cv__contact-detail {
+  padding: 0;
+  margin: 0;
+}
+
+.cv__summary {
+  color: #00000082;
+  border-top: 1px #00000082 solid;
+  border-bottom: 1px #00000082 solid;
+}
+
+.cv__skills-summary-list {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.cv__skills-summary-list-item {
+  padding-right: 30px;
+}
+
+.cv_experience-heading {
+  text-decoration: underline;
+}
+
+.cv_work-experience__brief-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
