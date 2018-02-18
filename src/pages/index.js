@@ -1,13 +1,20 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import './index.css';
+
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/cv/">Go to page 2</Link>
-  </div>
+  <nav className="nav">
+    <a className="nav__item" href="mailto:chris@cmward.co.uk">
+      Email
+    </a>
+    <a className="nav__item" href="http://linkedin.cmward.co.uk" target="_blank">
+      Linked In
+    </a>
+    <Link className="nav__item" to="/cv/">
+      Check out my CV
+    </Link>
+  </nav>
 );
 
 export default IndexPage;
